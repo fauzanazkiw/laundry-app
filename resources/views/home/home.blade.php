@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', $setting->nama_web ?? 'LaundryApp')
+@section('title', $setting->nama_web ?? 'Hallo Clean')
 
 @section('content')
     <!-- Hero Start -->

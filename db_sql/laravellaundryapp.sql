@@ -233,9 +233,3 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `re
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
-
-curl -s https://co.agentrouter.org/v1/models \
-  -H "Authorization: Bearer "
-curl -s https://co.agentrouter.org/v1/models \
-  -H "Authorization: Bearer sk-T4ID5lthRk1XluBxi4JBR5WBAd099TYDGoZPHS1WKjXaXhlp" \
-  | jq -r '.data[].id'

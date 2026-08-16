@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>@yield('title', $setting->nama_web ?? 'LaundryApp')</title>
+    <title>@yield('title', $setting->nama_web ?? 'Hallo Clean')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">

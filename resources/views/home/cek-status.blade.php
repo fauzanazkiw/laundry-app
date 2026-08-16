@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Cek Status Laundry - ' . ($setting->nama_web ?? 'LaundryApp'))
+@section('title', 'Cek Status Laundry - ' . ($setting->nama_web ?? 'Hallo Clean'))
 
 @section('content')
     <!-- Page Header Start -->
